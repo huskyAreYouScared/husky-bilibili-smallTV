@@ -1,0 +1,21 @@
+body,html{
+  padding: 0;
+  margin: 0px;
+  height:100%;
+  overflow: hidden;
+  position: relative;
+}
+.container{
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.smallTV-canvas-1{
+  background: #ccc;
+}
+.smallTV-canvas-2{
+  background: #888;
+}
