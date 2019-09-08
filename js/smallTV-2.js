@@ -18,6 +18,7 @@ new Zdog.RoundedRect({
   color: '#fff',
   cornerRadius: 15,
   fill: true,
+  backface: "#636"
 });
 new Zdog.RoundedRect({
   addTo:  illo_2,
@@ -26,6 +27,7 @@ new Zdog.RoundedRect({
   stroke: 3,
   color: '#000',
   cornerRadius: 15,
+  backface: "#636"
 });
 // mouth
 let line_2 = new Zdog.Shape({
@@ -38,6 +40,7 @@ let line_2 = new Zdog.Shape({
   rotate: { z: -(Zdog.TAU / 36) },
   stroke: 2,
   color: '#000',
+  backface: "#636"
 });
 
 // year left
@@ -62,6 +65,7 @@ let circle = new Zdog.Ellipse({
   stroke: 1,
   color: '#000',
   translate: { z: 10, x: -15, y: -15 },
+  backface: "#636"
 });
 circle.copy({
   diameter: 2,
